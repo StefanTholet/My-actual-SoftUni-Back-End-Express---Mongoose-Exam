@@ -71,30 +71,30 @@ Report check will allow the current expense to be accessed, something like detai
 ### Security Requirements (10 pts)
 The Security Requirements are mainly access requirements. Configurations about which users can access specific functionalities and pages.
 *	Guest (not logged in) users can access Home page (where users can register and login)
-•	Guest (not logged in) users can access Login page and functionality
-•	Guest (not logged in) users can access Register page and functionality
-•	Users (logged in) can access Expenses page (Listed all expenses for the currently logged in user) page and functionality
+*	Guest (not logged in) users can access Login page and functionality
+*	Guest (not logged in) users can access Register page and functionality
+*	Users (logged in) can access Expenses page (Listed all expenses for the currently logged in user) page and functionality
 The Security Requirements are mainly access requirements. Configurations about which users can access specific functionalities and pages.
-•	Guest (not logged in) users can access Home page (where users can register and login)
-•	Guest (not logged in) users can access Login page and functionality
-•	Guest (not logged in) users can access Register page and functionality
-•	Users (logged in) can access Expenses page (Listed all expenses for the currently logged in user) page and functionality
+*	Guest (not logged in) users can access Home page (where users can register and login)
+*	Guest (not logged in) users can access Login page and functionality
+*	Guest (not logged in) users can access Register page and functionality
+*	Users (logged in) can access Expenses page (Listed all expenses for the currently logged in user) page and functionality
 
 ###	Validation and Error Handling (10 pts)
 The application should notify the users about result of their actions.
 Login / Register
 You should make the following validations:
-•	The username should be at least 4 characters long and should consist only english letters and digits
-•	The password should be at least 4 characters long
-•	The repeat password should be equal to the password
-•	The account amount  should be positive number, which by default the value is 0 if while registering the user don't fill the field
+*	The username should be at least 4 characters long and should consist only english letters and digits
+*	The password should be at least 4 characters long
+*	The repeat password should be equal to the password
+*	The account amount  should be positive number, which by default the value is 0 if while registering the user don't fill the field
 
 #### Expense
 You should make the following validations while creating expense:
-•	The merchant should be at least 4 characters long
-•	The total should be positive number
-•	The category should one from the given options
-•	The description should be minimum 3 characters long and 30 characters maximum
+*	The merchant should be at least 4 characters long
+*	The total should be positive number
+*	The category should one from the given options
+*	The description should be minimum 3 characters long and 30 characters maximum
 
 ### *Bonus (10 pts)
 Account info / User profile page
