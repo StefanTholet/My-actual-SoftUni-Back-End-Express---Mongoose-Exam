@@ -70,7 +70,7 @@ Report check will allow the current expense to be accessed, something like detai
 
 ### Security Requirements (10 pts)
 The Security Requirements are mainly access requirements. Configurations about which users can access specific functionalities and pages.
-•	Guest (not logged in) users can access Home page (where users can register and login)
+*	Guest (not logged in) users can access Home page (where users can register and login)
 •	Guest (not logged in) users can access Login page and functionality
 •	Guest (not logged in) users can access Register page and functionality
 •	Users (logged in) can access Expenses page (Listed all expenses for the currently logged in user) page and functionality
